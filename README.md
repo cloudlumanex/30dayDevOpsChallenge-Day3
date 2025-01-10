@@ -1,6 +1,8 @@
 # OVERVIEW
 This project involves extracting data from an API call and storing it in an AWS S3 bucket. It also includes creating a Glue database, linking it to the S3 bucket, and running queries using Athena.
 
+# PROJECT DIAGRAM
+
 # Tools:
 * Cloud services (AWS S3, AWS Athena, AWS Glue)
 * Python
@@ -27,6 +29,7 @@ I created my project locally using VSCode, with the parent folder "30dayDevOpsCh
 * SRC Directory: Contains the environment variables for this project.
 * ![Screenshot 2025-01-10 052758](https://github.com/user-attachments/assets/61e73068-999c-421c-8295-443fe921f74c)
 * ![Screenshot 2025-01-10 052729](https://github.com/user-attachments/assets/199490c2-e990-4c00-9071-f70eea4800be)
+  
 * README File: Documents all information about the project.
 * ![Screenshot 2025-01-10 053312](https://github.com/user-attachments/assets/dc5cccd9-4b0c-4587-a850-b6a348a1b976)
 
@@ -43,5 +46,7 @@ In the Policy directory, I added the appropriate IAM policies for the S3 bucket,
 
 # RESULT
 I successfully created the resources and uploaded NBA data in JSON format for further analysis.
+
+![Screenshot 2025-01-10 031359](https://github.com/user-attachments/assets/58be0460-037b-49ce-92d2-639670ccc676)
 
 
