@@ -18,4 +18,14 @@ This project involves extracting data from an API call and storing it in an AWS 
 * AWS Glue is a serverless data integration service designed to prepare and transform data for analytics. It offers tools for ETL (Extract, Transform, Load) tasks and provides a Data Catalog for effective metadata management. Glue simplifies building data pipelines, automates data transformation, and helps clean and structure raw datasets stored in S3 or other sources, making them ready for analytics.
 
 # STEPS
-I created my project locally using VScode, the parent folder "30daydevOpsChalleng" conatains 2 folders Policies, Srs and 2 files README.md and 
+
+I created my project locally using VSCode, with the parent folder "30dayDevOpsChallenge" that houses all the folders and files for this project. This includes:
+
+* Policy Directory: Contains the IAM policies for this project.
+* SRC Directory: Contains the environment variables for this project.
+* README File: Documents all information about the project.
+* .gitignore: Specifies files that will not be pushed to the remote repository.
+
+
+
+
