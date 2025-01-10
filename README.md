@@ -25,6 +25,8 @@ I created my project locally using VSCode, with the parent folder "30dayDevOpsCh
 * ![Screenshot 2025-01-10 052503](https://github.com/user-attachments/assets/1532ace2-952f-4482-84c4-2fe695ff8d66)
 
 * SRC Directory: Contains the environment variables for this project.
+* ![Screenshot 2025-01-10 052758](https://github.com/user-attachments/assets/61e73068-999c-421c-8295-443fe921f74c)
+* ![Screenshot 2025-01-10 052729](https://github.com/user-attachments/assets/199490c2-e990-4c00-9071-f70eea4800be)
 * README File: Documents all information about the project.
 * .gitignore: Specifies files that will not be pushed to the remote repository.
 
