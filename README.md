@@ -3,9 +3,11 @@ This project involves extracting data from an API call and storing it in an AWS 
 
 # PROJECT DIAGRAM
 
+![Screenshot 2025-01-10 055857](https://github.com/user-attachments/assets/2f569495-21da-4f84-b39e-0ca3792f6835)
+
 # Tools:
 * Cloud services (AWS S3, AWS Athena, AWS Glue)
-* Python
+* VScode
 * NBA Game API
 
 # Prerequisites:
@@ -38,7 +40,8 @@ I created my project locally using VSCode, with the parent folder "30dayDevOpsCh
 
 
 # PROCEDURE
-In the Policy directory, I added the appropriate IAM policies for the S3 bucket, Athena, and Glue for this project. Inside the SRC directory, I have a .env file, which contains my setup_nba_data_lake.py script. This Python script automates the setup of a data lake for NBA sports analytics using AWS services. It creates an S3 bucket, fetches NBA data from an API, transforms it into line-delimited JSON, and stores it in S3. The script then sets up a Glue database and table for data cataloging and configures Athena for querying the stored data.
+In the Policy directory, I included the necessary IAM policies for the S3 bucket, Athena, and Glue services required for this project. Within the SRC directory, I have a .env file containing the setup_nba_data_lake.py script. This Python script automates the creation of a data lake for NBA sports analytics using AWS services. It creates an S3 bucket, fetches NBA data from an API, converts it into line-delimited JSON format, and stores it in S3. The script then sets up a Glue database and table for data cataloging and configures Athena to query the stored data
+
 
 ![Screenshot 2025-01-10 031232](https://github.com/user-attachments/assets/26093c94-43c7-4f33-b031-c477c968c4cd)
 ![Screenshot 2025-01-10 031212](https://github.com/user-attachments/assets/74ce3c35-cb59-4ccc-9465-66c7b34b1736)
