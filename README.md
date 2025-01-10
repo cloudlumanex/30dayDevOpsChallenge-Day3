@@ -34,5 +34,10 @@ I created my project locally using VSCode, with the parent folder "30dayDevOpsCh
 * ![Screenshot 2025-01-10 053459](https://github.com/user-attachments/assets/d82d12a0-2469-4815-862f-9991c68b7d92)
 
 
+# PROCEDURE
+In the Policy directory, I added the appropriate IAM policies for the S3 bucket, Athena, and Glue for this project. Inside the SRC directory, I have a .env file, which contains my setup_nba_data_lake.py script. This Python script automates the setup of a data lake for NBA sports analytics using AWS services. It creates an S3 bucket, fetches NBA data from an API, transforms it into line-delimited JSON, and stores it in S3. The script then sets up a Glue database and table for data cataloging and configures Athena for querying the stored data.
+
+# RESULT
+I successfully created the resources and uploaded NBA data in JSON format for further analysis.
 
 
