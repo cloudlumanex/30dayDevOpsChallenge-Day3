@@ -31,6 +31,7 @@ I created my project locally using VSCode, with the parent folder "30dayDevOpsCh
 * ![Screenshot 2025-01-10 053312](https://github.com/user-attachments/assets/dc5cccd9-4b0c-4587-a850-b6a348a1b976)
 
 * .gitignore: Specifies files that will not be pushed to the remote repository.
+* ![Screenshot 2025-01-10 053459](https://github.com/user-attachments/assets/d82d12a0-2469-4815-862f-9991c68b7d92)
 
 
 
